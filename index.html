@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajan.Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+  <button class="go-top">
+<i class="fa-solid fa-arrow-up"></i>
+  </button>
+   <!-- Navbar -->
+    <nav class="navbar ">
+        <div class="logo">Rajan.</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#">Resume</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-icons">
+          <i id="open" class="fa-solid fa-bars-staggered"></i>
+          <i id="close" class="fa-solid fa-xmark"></i>
+        </div>
+    </nav>
+<!--hero section-->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="text-content">
+              <img src="images/hello home.gif" alt="home hand gif ">
+                <h1>I'm  <span>Rajan Kumar</span>,<br>I,am</h1>
+                <div class="typing-text" id="typing-text"></div>
+                <p>I'm a Full Stack Web Developer skilled in HTML, CSS, JavaScript, React, Python, and databases like and SQL. I build scalable, user-friendly web applications with clean code and a focus on great user experiences..</p>
+                <div class="buttons">
+                    <a href="#" class="btn btn-primary">Skills</a>
+                    <a href="images/Rajan_kumar_Resume (1).pdf"target="_blank" class="btn btn-secondary">Download CV</a>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="images/9f179b85-0b6f-4ec5-a356-c04466495b51.jpg" alt="Jon Dawson" class="hero-image">
+                <div class="image-overlay"></div>
+            </div>
+        </div>
+        </div>
+       <!--<div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>--> 
+    </section>
+
+ 
+  <!--skills-->
+  <section  class="skills-section" id="skills">
+    <div class="container">
+        <h1>Techstack</h1>
+        <div class="grid">
+            <div class="card">
+                <img src="images/html5.jpg" alt="HTML5">
+                <p>HTML5</p>
+            </div>
+            <div class="card">
+                <img src="images/css.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="card">
+                <img src="images/js_logo.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="card">
+                <img src="images/react.png" alt="React">
+                <p>React</p>
+            </div>
+            <div class="card">
+                <img src="images/bootstrap-logo-freelogovectors.net_.png" alt="Vue">
+                <p>BootStrap</p>
+            </div>
+            <div class="card">
+                <img src="images/python-logo.png" alt="TypeScript">
+                <p>Python</p>
+            </div>
+              <div class="card">
+                <img src="images/Django-Logo.png" alt="TypeScript">
+                <p>Django</p>
+            </div>
+              <div class="card">
+                <img src="images/aws.webp" alt="TypeScript">
+                <p>AWS</p>
+            </div>
+              <div class="card">
+                <img src="images/spl.jpg" alt="TypeScript">
+                <p>SQL</p>
+            </div>
+              <div class="card">
+                <img src="images/mysql.webp" alt="TypeScript">
+                <p>My SQL</p>
+            </div>
+              <div class="card">
+                <img src="images/git.png" alt="TypeScript">
+                <p>Git</p>
+            </div>
+              <div class="card">
+                <img src="images/Github-Logo.png" alt="TypeScript">
+                <p>Git Hub</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--project cards-->
+   <section class="projects-section"id="project">
+        <h2>Projects</h2>
+        <div class="slider-container">
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="images/fitness.img.jpeg" alt="Grab N Go">
+                    <h3> Fitness Garage </h3>
+                    <p>India's largest online food and grocery store that delivers products to customers door within few minutes of placing orders.</p>
+                    <div class="tech-stack">Tech Stack: HTML | CSS | JavaScript </div>
+                    <div class="buttons">
+                        <button onclick="window.open('https://github.com', '_blank')">Git Repo</button>
+                        <button onclick="window.open('https://example.com', '_blank')">Go Live</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/E commerce.jpeg" alt="ProblemHub">
+                    <h3>Shop-Me</h3>
+                    <p>An user-friendly web-app designed to help you store, organize, and access all your notes in one convenient place (digital Notes).</p>
+                    <div class="tech-stack">Tech Stack: HTML | CSS | JavaScript | Python | SQL</div>
+                    <div class="buttons">
+                        <button onclick="window.open('https://github.com', '_blank')">Git Repo</button>
+                        <button onclick="window.open('https://example.com', '_blank')">Go Live</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/weather.ing.jpeg" alt="YouTube">
+                    <h3> Weather</h3>
+                    <p>A clone of YouTube to replicate the core functionalities of the most popular video-sharing platform ever.</p>
+                    <div class="tech-stack">Tech Stack:  JavaScript | HTML | CSS</div>
+                    <div class="buttons">
+                        <button onclick="window.open('https://github.com', '_blank')">Git Repo</button>
+                        <button onclick="window.open('https://example.com', '_blank')">Go Live</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/350x200?text=Sample+Project" alt="Sample Project">
+                    <h3>Sample Project</h3>
+                    <p>A sample project to demonstrate the swipe functionality in desktop view.</p>
+                    <div class="tech-stack">Tech Stack: HTML | CSS | JavaScript</div>
+                    <div class="buttons">
+                        <button onclick="window.open('https://github.com', '_blank')">Git Repo</button>
+                        <button onclick="window.open('https://example.com', '_blank')">Go Live</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots"></div>
+    </section>
+  <!--knowalage-->
+  <section class="skills-section">
+        <h2>Ability</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="icon">💻</div>
+                <h3>Front-End</h3>
+                <p>HTML | CSS | JavaScript<br>React </p>
+            </div>
+            <div class="skill-card">
+                <div class="icon">📈</div>
+                <h3>Back-End</h3>
+                <p>Django| Python<br>AWS| SQL</p>
+            </div>
+            <div class="skill-card">
+                <div class="icon">🧠</div>
+                <h3>DSA</h3>
+                <p>String | Array | Object<br>Recursion | DP</p>
+            </div>
+        </div>
+    </section>
+  <!--contact-->
+    <section id="contact"class="contact-section">
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form  action="https://formspree.io/f/xjkrvrnd"
+  method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your Name"name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter a valid email address" name="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Your message here..." name="textarea"></textarea>
+
+        <div class="terms">
+          <input type="checkbox" id="terms">
+          <label for="terms">I accept the <a href="#">Terms of Service</a></label>
+        </div>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <div class="info-box">
+        <h4>CALL ME</h4>
+        <p>+91 6289149643<br>+91 9564325155</p>
+      </div>
+      <div class="info-box">
+        <h4>LOCATION</h4>
+        <p>115 dh road behla,<br>Kolkata, West Bengal 700064</p>
+      </div>
+      <div class="info-box">
+        <h4>Always ready for new opportunity</h4>
+        <ul>
+          <li>Website Build</li>
+          <li><strong>Website Design</strong></li>
+          <li><strong>Thank You For visiting</strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer>
+    <h4>© All copy Right Reserved by Rajan.</h4>
+  </footer>
+
+
+  
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
