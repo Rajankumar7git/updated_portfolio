@@ -373,8 +373,8 @@ html {
 }
 
 .card img {
-  width: 60px;
-  height: auto;
+  width: 40px;
+  height:auto;
   margin-bottom: 10px;
 }
 
@@ -405,7 +405,7 @@ html {
   height: 100vh;
 
   text-align: center;
-  padding: 40px 20px;
+  padding: 10px 20px;
   background-color: #dddde8;
 }
 
@@ -429,7 +429,7 @@ html {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .projects-container {
@@ -442,7 +442,8 @@ html {
   background-color: #2a2a2a;
   border-radius: 10px;
   padding: 20px;
-  width: 340px;
+  height: 600px;
+  width: 350px;
   flex-shrink: 0;
   margin: 0 5px;
   text-align: left;

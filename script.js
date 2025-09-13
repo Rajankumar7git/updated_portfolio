@@ -14,7 +14,7 @@ closed.addEventListener('click', () => {
 
 /*home text typing*/
 
-const texts = ['Web Developer', 'Full Stack Developer'];
+const texts = ['Web Developer', 'Software Developer'];
 const typingElement = document.getElementById('typing-text');
 let textIndex = 0;
 let charIndex = 0;
